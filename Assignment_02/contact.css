@@ -1,0 +1,70 @@
+/* Contact Form Section */
+.contact {
+    max-width: 600px;
+    margin: 3rem auto; /* Increase margin at the top to push the form lower */
+    padding: 2.5rem; /* Padding inside the form */
+    color: black;
+    background-color: #f4f4f4;
+    border: 2px solid #ddd; /* Solid border around the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Contact Title */
+.contact h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Contact Subtitle */
+.contact p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Form Input Fields */
+label {
+    font-weight: bold;
+    margin-top: 1.5rem;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1rem; /* Add more comfortable padding */
+    margin: 0.8rem 0; /* More space between fields */
+    border: 1px solid #ddd; /* Border for input fields */
+    border-radius: 4px; /* Rounded edges for inputs */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    font-size: 1rem;
+}
+
+/* Submit Button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1.2rem 2.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contact {
+        padding: 2rem;
+    }
+
+    button {
+        width: 100%; /* Ensures button is full width on smaller screens */
+    }
+}

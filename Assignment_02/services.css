@@ -1,0 +1,123 @@
+/* Global Body & Header Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light background for contrast */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the body takes at least full viewport height */
+}
+
+/* Hero Section for Service Page */
+.hero-services {
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-grow: 1; /* Allows the services section to take available space */
+}
+
+/* Card Style */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* Card Image */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Card Title */
+.card h3 {
+    font-size: 1.4rem;
+    margin: 15px 0;
+    color: #333;
+}
+
+/* Card Short Description */
+.card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* Price Range */
+.price-range {
+    font-size: 1.1rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Details Section */
+details {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+summary {
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #4CAF50;
+}
+
+summary:hover {
+    text-decoration: underline;
+}
+
+details p {
+    font-size: 0.95rem;
+    margin-top: 10px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Mobile-Friendly Layout */
+@media (max-width: 768px) {
+    .services {
+        justify-content: center;
+    }
+
+    .card {
+        max-width: 90%; /* Cards take almost full width on mobile */
+    }
+
+    .page-title {
+        font-size: 2rem; /* Adjust title size on mobile */
+    }
+}
+

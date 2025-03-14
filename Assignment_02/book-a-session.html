@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Session - Health Coach</title>
+    <link rel="stylesheet" href="book-a-session.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Holistic Health</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="events.html">Upcoming Events</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="book-a-session.html">Book a Session</a></li> <!-- Book a Session link -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Book a Session Section -->
+    <section class="book-a-session">
+        <h1>Book a Health Coaching Session</h1>
+        <p>We’re excited to help you achieve your health goals. Please fill out the form below to book your personalized session with us.</p>
+
+        <!-- Form for Booking a Session -->
+        <form action="https://formspree.io/f/xyzkzybr" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="session-type">Type of Session:</label>
+            <select id="session-type" name="session-type" required>
+                <option value="One-on-One Coaching">One-on-One Coaching</option>
+                <option value="Group Coaching">Group Coaching</option>
+                <option value="Meal Planning">Meal Planning</option>
+            </select>
+
+            <label for="preferred-date">Preferred Date and Time:</label>
+            <input type="datetime-local" id="preferred-date" name="preferred-date" required>
+
+            <label for="additional-info">Additional Notes or Questions:</label>
+            <textarea id="additional-info" name="additional-info" rows="4" placeholder="Tell us anything else we should know..."></textarea>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Health Coach. All rights reserved.</p>
+    </footer>
+</body>
+</html>

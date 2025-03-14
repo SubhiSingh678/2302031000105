@@ -1,0 +1,110 @@
+/* Hover Effect for Titles */
+.intro h1:hover, .mission h2:hover {
+    color: #4CAF50; /* Change color on hover */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* About Us Section Styles */
+.about {
+    margin-top: 40px;
+    padding: 80px 40px; /* Increased padding for more space */
+    text-align: center; /* Center the content */
+    max-width: 900px; /* Allow more space for content */
+    margin-left: auto;
+    margin-right: auto;
+    color: white; /* Set font color to white */
+}
+
+/* Introduction */
+.intro {
+    margin-bottom: 30px; /* Increased bottom margin for more spacing */
+}
+
+.intro h1 {
+    font-size: 3rem; /* Increased font size */
+    margin-bottom: 30px; /* Increased bottom margin */
+    color: white;
+}
+
+.intro p {
+    font-size: 1.4rem; /* Increased font size */
+    line-height: 1.8; /* More line spacing */
+    color: white;
+    max-width: 800px; /* Increased max-width for better readability */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Mission Statement */
+.mission {
+    margin-bottom: 60px; /* Increased margin for better spacing */
+}
+
+.mission h2 {
+    font-size: 2.5rem; /* Larger font size for mission statement */
+    color: white;
+    margin-bottom: 30px;
+}
+
+.mission p {
+    font-size: 1.4rem; /* Increased font size */
+    line-height: 1.8; /* More line spacing */
+    color: white;
+    max-width: 800px; /* Increased max-width for readability */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Book a Session Section */
+.book-session {
+    padding: 30px;
+    margin-top: 60px; /* Increased margin for spacing */
+    background-color: #f4f4f4; /* Keep background color for the button area */
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.book-session h2 {
+    font-size: 2.5rem; /* Increased font size */
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.book-session p {
+    font-size: 1.3rem; /* Increased font size */
+    line-height: 1.8; /* More line spacing */
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.book-session .cta-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-session .cta-button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about {
+        padding: 60px 20px;
+    }
+
+    .book-session .cta-button {
+        width: 100%;
+    }
+
+    .intro p, .mission p {
+        font-size: 1.1rem; /* Adjust font size for mobile */
+    }
+}
