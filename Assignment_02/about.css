@@ -78,7 +78,7 @@
     margin-bottom: 30px;
 }
 
-.book-session .cta-button {
+.book-session .sub-button {
     background-color: #4CAF50;
     color: white;
     padding: 1rem 2rem;
@@ -90,7 +90,7 @@
     transition: background-color 0.3s;
 }
 
-.book-session .cta-button:hover {
+.book-session .sub-button:hover {
     background-color: #45a049;
 }
 
@@ -100,7 +100,7 @@
         padding: 60px 20px;
     }
 
-    .book-session .cta-button {
+    .book-session .sub-button {
         width: 100%;
     }
 

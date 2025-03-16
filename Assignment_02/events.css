@@ -98,7 +98,7 @@ nav ul li a:hover {
     margin-bottom: 2rem;
 }
 
-.cta-button {
+.sub-button {
     background-color: #0077b6;
     color: #fff;
     text-decoration: none;
@@ -108,7 +108,7 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
-.cta-button:hover {
+.sub-button:hover {
     background-color: #005f8d;
 }
 

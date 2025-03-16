@@ -63,8 +63,8 @@ nav ul li a.cta-button {
     border-radius: 5px;
 }
 
-/* Hero Section */
-.hero {
+/* Main Section */
+.main {
     height: 100vh; /* Full viewport height */
     display: flex;
     justify-content: center;
@@ -75,7 +75,7 @@ nav ul li a.cta-button {
 }
 
 /* Subtle Gradient Overlay */
-.hero::before {
+.main::before {
     content: '';
     position: absolute;
     top: 0;
@@ -86,24 +86,24 @@ nav ul li a.cta-button {
     z-index: 1;
 }
 
-.hero-content {
+.main-content {
     max-width: 800px;
     padding: 20px;
     z-index: 2; /* Ensures text stays on top */
     animation: fadeIn 2s ease-in-out;
 }
 
-.hero h1 {
+.main h1 {
     font-size: 3rem;
     margin-bottom: 20px;
 }
 
-.hero p {
+.main p {
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
 
-.cta-button {
+.sub-button {
     background-color: #4CAF50;
     color: white;
     padding: 1rem 2rem;
@@ -115,7 +115,7 @@ nav ul li a.cta-button {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.cta-button:hover {
+.sub-button:hover {
     background-color: #45a049;
     transform: scale(1.1); /* Subtle scale on hover */
 }
@@ -139,11 +139,11 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .hero h1 {
+    .main h1 {
         font-size: 2rem;
     }
 
-    .hero p {
+    .main p {
         font-size: 1rem;
     }
 
